@@ -1,0 +1,71 @@
+//atv1//
+
+#include <stdio.h>
+#include <math.h>
+
+  int main() {
+  int numero1, numero2, soma, multi, potencia, modulo;
+  float div, sub;
+
+  printf("digite os numeros"); 
+  scanf("%d %d", &numero1, &numero2);
+
+    soma = numero1 + numero2;
+    multi = numero1 * numero2;
+    sub = numero1 - numero2;
+    div = (float)numero1 /(float) numero2;
+
+    printf("soma: %d , \nMultiplicacao: %d, \nSubtrcao: %.2f, \nDivisao: %.2f",soma, multi, sub, div ); 
+
+}
+
+//atv2//
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  int numero1, potencia;
+
+  printf("digite o numero");
+  scanf("%d", &numero1);
+
+  potencia = pow(numero1, 2);
+
+  printf("Potencia: %d", potencia);
+}
+
+//atv3//
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  int numero1, numero2, multi;
+
+  printf("digite o numero");
+  scanf("%d" "%d", &numero1, &numero2);
+
+  multi = numero1 * numero2;
+
+  printf(" \nMultiplicacao: %d", multi);
+}
+
+//atv4//
+
+#include <stdio.h>
+#include <math.h>
+
+  int main() {
+  int numero1;
+  float multi;
+
+  printf("digite os numeros"); 
+  scanf("%d",&numero1);
+    
+    multi = numero1 * 4.98;
+
+    printf("\nMultiplicacao: %.2f" , multi); 
+}
+
+//atv5//
