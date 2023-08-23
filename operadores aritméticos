@@ -68,4 +68,92 @@ int main() {
     printf("\nMultiplicacao: %.2f" , multi); 
 }
 
-//atv5//
+//atv6//
+
+#include <stdio.h>
+#include <math.h>
+
+  int main() {
+  	
+  float mercadoria, frete, despesas, valor, custo, lucro, porcentagem;
+
+  printf("valor da mercadoria"); 
+  scanf("%f", &mercadoria);
+  
+  printf("valor do frete"); 
+  scanf("%f", &frete);
+  
+  printf("valor das despesas"); 
+  scanf("%f", &despesas);
+  
+  printf("valor"); 
+  scanf("%f", &valor);
+  
+  custo =  mercadoria + frete + despesas;
+  lucro = valor - custo; 
+  porcentagem = lucro / valor * 100; 
+  
+  printf("porcentagem de lucro %.2f", porcentagem);
+   
+}
+
+//atv7//
+
+#include <stdio.h>
+#include <math.h>
+
+  int main() {
+  	 
+  	 float raio, area;
+  	 
+  	 printf("qual o valor do raio do circulo");
+  	 scanf("%f", &raio);
+  	 
+  	 area = raio * raio * 3.14;
+  	 
+  	 printf("valor da area:%.2f", area);
+  	  
+}
+
+//atv8//
+
+#include <stdio.h>
+#include <math.h>
+
+  int main() {
+  	 
+  	 int idade, dias;
+  	 
+  	 printf("qual a sua idade");
+  	 scanf("%d", &idade);
+  	 
+  	 dias = idade  * 365;
+  	 
+  	 printf("sua idade em dias:%d",dias );
+  	  
+}
+
+//atv9//
+
+#include <stdio.h>
+#include <math.h>
+
+  int main() {
+  	 
+  	 float salario, reajuste, reajustado;
+  	 
+  	 printf("qual seu salario");
+  	 scanf("%f", &salario);
+  	 
+  	 printf("qual o porcentual do reajuste");
+  	 scanf ("%f", &reajuste);
+  	 
+
+  	reajustado = reajuste / 100 * salario + salario;
+  	
+  	 
+  	 printf("seu salario reajustado %.2f", reajustado);
+  	 
+}
+
+//atv10//
