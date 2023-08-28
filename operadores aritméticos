@@ -157,3 +157,41 @@ int main() {
 }
 
 //atv10//
+
+main(){
+	float custofab, custoend;
+	int distribuidor = 28;
+	int imposto = 45;
+	
+	printf("Digite o custo de fábrica:");
+	scanf("%f", &custofab);
+	
+	custoend = (custofab * distribuidor / 100) + (custofab * imposto/100) + custofab;
+	
+	printf("O valor do carro novo é: %.2f", custoend);
+}
+
+//atv11//
+
+main(){
+    int carro;
+    float salario, vendas, total;
+    int comissao = 200;
+
+    
+    printf("Qual é o salário do seu funcionário?\n");
+    scanf("%f", &salario);
+
+    printf("Quantos carros ele vendeu?\n");
+    scanf("%d", &carro);
+
+    printf("Valor total das vendas?\n");
+    scanf("%f", &vendas);
+
+    total= salario + (comissao*carro) + (vendas * 5/100);
+
+    printf("O salário final do seu funcionário será:\n %.2f", total);
+    return 0;
+}
+
+//fim//
